@@ -19,7 +19,6 @@ type HTTPServer struct{}
 var Mux map[string]http.HandlerFunc
 
 func main() {
-	fmt.Println("### NAGA Single Sign-On Service")
 	fmt.Printf(" * Server starting at port: %v\n", config.Service.Port)
 
 	// Initialize Database
